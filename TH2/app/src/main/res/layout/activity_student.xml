@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/list_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/yellow"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="Danh sách học sinh dh21dtd"
+        android:textFontWeight="700"
+        >
+
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/student_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
